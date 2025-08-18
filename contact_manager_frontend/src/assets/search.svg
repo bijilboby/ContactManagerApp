@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="url(#search-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <linearGradient id="search-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#444"/>
+    </linearGradient>
+  </defs>
+  <circle cx="11" cy="11" r="8"/>
+  <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+</svg>
+

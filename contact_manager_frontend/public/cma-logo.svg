@@ -1,0 +1,26 @@
+<svg width="320" height="140" viewBox="0 0 320 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="grayGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b0b7bc"/>
+      <stop offset="100%" stop-color="#e0e7ef"/>
+    </linearGradient>
+  </defs>
+  <text x="20" y="105"
+        font-family="Brush Script MT, Pacifico, Dancing Script, cursive"
+        font-size="100"
+        font-style="italic"
+        font-weight="bold"
+        fill="url(#blueGradient)">
+    CMA
+  </text>
+  <path d="M225 92 Q250 78 285 92"
+        stroke="url(#grayGradient)"
+        stroke-width="9"
+        stroke-linecap="round"
+        fill="none"/>
+</svg>

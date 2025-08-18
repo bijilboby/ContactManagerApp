@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="300" height="120" viewBox="0 0 300 120"
+     version="1.1">
+  
+  <!-- Correct "C" -->
+  <path d="M100 90
+           C 60 90, 60 30, 100 30"
+        fill="none" stroke="#004a99" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- "M" -->
+  <path d="M130 90 L150 30 L170 90 L190 30 L210 90"
+        fill="none" stroke="#004a99" stroke-width="10"/>
+
+  <!-- "A" -->
+  <path d="M240 90 L260 30 L280 90"
+        fill="none" stroke="#004a99" stroke-width="10"/>
+  
+  <!-- Grey swoosh across A -->
+  <path d="M245 65 Q265 55 285 65"
+        fill="none" stroke="#a0a9b4" stroke-width="8" stroke-linecap="round"/>
+</svg>
+
+
+
