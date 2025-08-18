@@ -1,0 +1,51 @@
+### Test Registration
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "email": "test@example.com",
+  "password": "password123"
+}
+
+### Test Login
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "password123"
+}
+
+### Test Login with Wrong Password
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "wrongpassword"
+}
+
+### Test Login with Missing Fields
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com"
+}
+
+### Test Get Contacts (requires token)
+GET http://localhost:5000/api/contacts
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Test Create Contact (requires token)
+POST http://localhost:5000/api/contacts
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "phone": "123-456-7890",
+  "type": "personal"
+}
