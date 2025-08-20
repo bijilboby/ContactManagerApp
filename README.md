@@ -17,10 +17,10 @@ A full-stack Contact Management Application built with **React.js** and **Node.j
 
 ## 🖥️ User Interface Overview
 
-### 🔐 Login  Page
+### 🔐 Login/Register  Page (Sign In)
 ![Auth](screenshots/signin.png)
 
-### 🔐 Login  Page
+### 🔐 Login/Register  Page (Sign Up)
 ![Auth](screenshots/signup.png)
 
 ### 🏠 Home Page (After Login)
