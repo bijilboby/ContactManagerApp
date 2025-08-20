@@ -1,0 +1,19 @@
+# Node modules and lock files
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Env files
+.env
+
+# Logs
+*.log
+
+# Editor files
+.DS_Store
+Thumbs.db
+
+# Parent folder files not needed in Docker image
+../README.md
+../screenshots
