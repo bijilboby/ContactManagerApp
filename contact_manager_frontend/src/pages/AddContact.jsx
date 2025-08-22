@@ -103,8 +103,14 @@ export default function AddContact() {
             type="tel"
             placeholder="e.g., 123-456-7890"
             value={phone}
-            onChange={e => setPhone(e.target.value)}
+            onChange={e => {
+              const val = e.target.value;
+              if (/^\d{0,10}$/.test(val)) {
+                setPhone(val);
+              }
+            }}
             required
+            maxLength={10}
             className="w-2/3 px-4 py-2 border-t border-b border-r border-gray-300 rounded-r-md focus:outline-none focus:border-blue-600"
           />
         </div>
