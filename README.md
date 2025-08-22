@@ -110,7 +110,7 @@ PORT=5000
 
 4. **Start backend server**
 ```bash
-npm run server
+node server.js
 ```
 
 5. **Install frontend dependencies**
@@ -126,7 +126,7 @@ REACT_APP_API=http://localhost:5000/api
 
 7. **Start frontend**
 ```bash
-npm start
+npm run dev
 ```
 
 ---
